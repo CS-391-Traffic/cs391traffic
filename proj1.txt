@@ -1,1 +1,34 @@
+Team members: Charlie, Jenna, and Ben.
+Data: 
+Weather data - http://newa.cornell.edu/index.php?page=hourly-weather
+Traffic data - https://pennshare.maps.arcgis.com/apps/webappviewer/index.html?id=8fdbf046e36e41649bbfd9d7dd7c7e7e
 
+Questions - 
+  a. At what specific times before, after, or during weather events does traffic intensify?
+	b. Do different types of weather events affect traffic density more than others?
+	c. Does the same weather events occuring in different regions affect traffic density differently?
+  
+  Guthub accounts - 
+  https://github.com/cstewart3
+  https://github.com/Wrigje05
+  https://github.com/Healdb
+  
+  Dropbox Account emails - 
+  healdb2@gmail.com
+  hicjs12@gmail.com
+  wrigje05@gettysburg.edu
+  
+  Dataset download link - https://www.dropbox.com/sh/sl2e7gdntj85nqe/AADMKjG3hlaRbPx2eJsspqqBa?dl=0
+  
+  Weather data attributes:
+  file format - Eventually CSV
+  Data size - 2mb
+  Attributes - Datetime: Datetime format, datetime of weather event
+               Air Temp: Double format, air temperature
+               Dew Point: Int format, the dew point is the temperature at which air must be cooled to become saturated with water vapor
+               Precip: Double format, the amount of precipitation in inches.
+               RH: Int format, the humidity percentage of the air.
+               Wind Spd: double format, wind speed in miles per hour.
+               Wind dir: int format, degree in 360 space that the wind is coming from.
+  
+  
