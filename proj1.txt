@@ -151,3 +151,20 @@ WZ_MOVING Was there moving work in the zone? (Y/N) TEXT 1 1=Y, 0 = N
 WZ_OTHER Was this a special type of work zone? (Y/N) TEXT 1 1=Y, 0 = N
 WZ_SHLDER_MDN Was a median/shoulder in the zone? (Y/N) TEXT 1 1=Y, 0 = N
   
+Can the data be loaded? - yes, they are CSV files.
+
+There are some inconsistencies in the weather data with blank values which will have to be corrected.
+Corrections will have to be made on the two datetime attributes, as they are different formats. The datetimes will also have to be matched to find commonalities in the data.
+
+a. At what specific times before, after, or during weather events cause riskier traveling conditions? 
+	IV - all attributes
+	DV - If there is a crash at a given time.
+b. Do different types of weather events affect traffic danger more than others?
+	IV - different types of weather events, rain, snow, and amounts of each.
+	DV - crash amounts at given times, and crash type.
+c. Does age affect ability to drive in adverse weather conditions?
+	IV - all weather data.
+	DV - age of the driver.
+	
+Preprocessing - 
+Convert HTML table of the weather dataset into CSV using either a web scrapper or manually copying the information.
