@@ -30,6 +30,10 @@ Questions -
                RH: Int format, the humidity percentage of the air.
                Wind Spd: double format, wind speed in miles per hour.
                Wind dir: int format, degree in 360 space that the wind is coming from.
+	       
+Traffic data attributes:
+  file format - CSV
+  Data size - 2mb
   Attributes -  
   Column Name Short Description Type Length Constraints
 ARRIVAL_TM Time police arrived at the scene TEXT 4 HHMM
